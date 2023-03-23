@@ -1,0 +1,22 @@
+# Ninja Build files
+build.ninja
+rules.ninja
+.ninja_deps
+.ninja_log
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+# website binary
+website
+
+# patch files
+patches/
+patch/
+*.patch
+
+.DS_Store
+
+smtp

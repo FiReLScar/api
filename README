@@ -1,0 +1,30 @@
+					
+                     Link Website Template
+
+This is a basic template for anyone needing to quickly setup a 
+new website using Link (https://github.com/N11Software/Link)
+as a web library.
+
+
+BUILDING AND RUNNING
+Make sure you have Link installed on your system before using
+this. You will also need CMake and Ninja on your system. Make
+will *probably* work fine but this isn't tested. To build the
+site, run
+
+	$ cmake -GNinja .
+	$ ninja
+
+This will create the executable 'website' which you can run
+with
+
+	$ ./website
+
+which hosts the site at port 3000.
+
+	NOTE: Link doesn't work well natively on Windows and
+	will have to run via WSL to work correctly.
+
+COPYRIGHT
+Link and 'linkproj' is licensed under the BSD 3 Clause license.
+Please see COPYRIGHT for more information.
